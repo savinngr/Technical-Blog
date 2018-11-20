@@ -20,14 +20,14 @@ public class HomeController {
         post1.setDate(new Date());
 
         Post post2 = new Post();
-        post1.setTitle("Post 2");
-        post1.setBody("This Is Post 2");
-        post1.setDate(new Date());
+        post2.setTitle("Post 2");
+        post2.setBody("This Is Post 2");
+        post2.setDate(new Date());
 
         Post post3 = new Post();
-        post1.setTitle("Post 3");
-        post1.setBody("This Is Post 3");
-        post1.setDate(new Date());
+        post3.setTitle("Post 3");
+        post3.setBody("This Is Post 3");
+        post3.setDate(new Date());
 
         ArrayList<Post> posts = new ArrayList<>();
         posts.add(post1);
